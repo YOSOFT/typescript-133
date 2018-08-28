@@ -3,3 +3,5 @@ export class Producto{
         console.log('producto');
     }
 }
+
+export const dias: string[] = ["lunes", "martes", "miercoles"];

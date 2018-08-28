@@ -6,3 +6,4 @@ class Producto {
     }
 }
 exports.Producto = Producto;
+exports.dias = ["lunes", "martes", "miercoles"];

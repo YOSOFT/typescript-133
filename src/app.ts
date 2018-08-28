@@ -1,10 +1,12 @@
-import { Producto } from './producto'
+import { Producto, dias } from './producto'
+import { registro } from './decoradores'
 
 interface IConmputador {
     marca: string,
     modelo?: string
 }
 
+@registro
 class Computador implements IConmputador
 {
     marca: string;
@@ -12,6 +14,7 @@ class Computador implements IConmputador
     constructor(marca:string){
       this.marca = marca;
         console.log(this.marca);
+        console.log(dias);
     }
    
 }
